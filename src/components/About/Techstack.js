@@ -20,7 +20,6 @@ import {
   SiSocketdotio,
   SiWebrtc,
   SiJest,
-  SiJirasoftware,
   SiPostman,
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
