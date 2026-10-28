@@ -808,3 +808,31 @@ button:focus {
     transform: none;
   }
 }
+/* Navbar links */
+.navbar .nav-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Underline the active page */
+.navbar .nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #c770f0;
+  border-radius: 2px;
+}
+
+/* Active link text color */
+.navbar .nav-link.active {
+  color: #c770f0 !important;
+}
+
+/* Underline animation */
+.navbar .nav-link::after {
+  transition: width 0.3s ease;
+}
